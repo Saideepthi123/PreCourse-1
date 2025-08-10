@@ -1,7 +1,7 @@
-# Time Complexity : isEmpty O(1), push O(1), pop O(1), peek O(1), size O(n), show O(n) n being the size of the stack
+# Time Complexity : apend, find, remove O(n), we append in the end of the liked list so O(n), fin also traverse to the whole linked list, remove also whole linked list 
 # Space Complexity : O(n) number of elements added in the stack 
 # Did this code successfully run on Leetcode : Yes
-# Any problem you faced while coding this : I was confused what's the difference between exercise 2 and 3 but looking at append method, inserting at the end it made sense 
+# Any problem you faced while coding this : I was confused what's the difference between exercise 2 and 3 but looking at append method, inserting at the end, i understood the difference between exercise 2,3
 
 class ListNode:
     """
